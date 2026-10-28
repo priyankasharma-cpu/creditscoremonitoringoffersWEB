@@ -1,0 +1,88 @@
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  width: max-content;
+}
+.brand-icon {
+  width: 47px;
+  height: 53px;
+  display: grid;
+  place-items: center;
+  color: var(--navy);
+}
+.brand-icon svg {
+  stroke-width: 2;
+}
+.brand-accent {
+  color: #d95a06;
+}
+.brand-sub {
+  display: block;
+  font-family: Inter;
+  font-size: 9px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: var(--navy);
+}
+@media (max-width: 1250px) {
+  .brand {
+    font-size: 22px;
+  }
+  .brand-sub {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 1180px) {
+  .brand {
+    font-size: 24px;
+  }
+  .brand-sub {
+    font-size: 8px;
+  }
+}
+@media (max-width: 760px) {
+  .brand {
+    font-size: 22px;
+    gap: 5px;
+  }
+  .brand-icon {
+    width: 40px;
+    height: 45px;
+  }
+  .brand-icon svg {
+    width: 35px;
+    height: 35px;
+  }
+  .brand-sub {
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+}
+@media (max-width: 430px) {
+  .brand {
+    font-size: 21px;
+  }
+  .brand-sub {
+    font-size: 7px;
+    letter-spacing: 1.7px;
+  }
+  .brand-icon {
+    width: 35px;
+  }
+}
+@media (max-width: 350px) {
+  .brand {
+    font-size: 19px;
+  }
+  .brand-sub {
+    font-size: 6px;
+  }
+}

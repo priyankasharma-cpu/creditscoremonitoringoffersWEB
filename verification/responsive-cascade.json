@@ -1,0 +1,80 @@
+[
+  {
+    "route": "/",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "differences": []
+  },
+  {
+    "route": "/compare",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "differences": []
+  },
+  {
+    "route": "/about",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "differences": []
+  },
+  {
+    "route": "/reviews/northstar",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "differences": []
+  },
+  {
+    "route": "/education/what-is-credit-monitoring",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "differences": []
+  },
+  {
+    "route": "/methodology",
+    "widths": [
+      320,
+      375,
+      430,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "differences": []
+  }
+]

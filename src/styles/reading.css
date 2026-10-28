@@ -1,0 +1,67 @@
+.reading-page {
+  max-width: 900px;
+  padding-block: 50px 90px;
+  min-height: 400px;
+}
+.reading-page h2 {
+  font-size: 30px;
+  margin-top: 45px;
+}
+.reading-page p,
+.reading-page li {
+  font-size: 18px;
+  line-height: 1.9;
+}
+.reading-page .lead {
+  font-size: 21px;
+  line-height: 1.85;
+}
+.reading-page ul {
+  padding-left: 25px;
+  color: #40566b;
+}
+.reading-page .methodology {
+  width: 100%;
+  padding: 30px 30px 0;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  margin-block: 35px;
+}
+@media (max-width: 760px) {
+  .reading-page {
+    padding-block: 35px 60px;
+  }
+  .reading-page .lead {
+    font-size: 19px;
+  }
+  .reading-page p,
+  .reading-page li {
+    font-size: 17px;
+  }
+  .reading-page h2 {
+    font-size: 28px;
+  }
+  .reading-page .methodology {
+    padding: 25px 20px 0;
+  }
+}
+
+/* Preserve the original responsive cascade inside the methodology reading page. */
+@media (max-width: 1180px) {
+  .reading-page .methodology h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 760px) {
+  .reading-page .methodology h2 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 430px) {
+  .reading-page .methodology h2 {
+    font-size: 30px;
+  }
+  .reading-page .criteria-grid p {
+    font-size: 16px;
+  }
+}

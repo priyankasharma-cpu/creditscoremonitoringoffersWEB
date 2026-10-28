@@ -1,0 +1,14 @@
+[
+  {
+    "page": "home",
+    "before": "5dd296280b97b0ddae77b9eb37e76eb8ce95aed3af8a44876e56ae8dda281b9a",
+    "after": "5dd296280b97b0ddae77b9eb37e76eb8ce95aed3af8a44876e56ae8dda281b9a",
+    "identical": true
+  },
+  {
+    "page": "compare",
+    "before": "b00271d8860a684610ee72048002c96bbb5474b9648de2494b016eb28a7349c7",
+    "after": "b00271d8860a684610ee72048002c96bbb5474b9648de2494b016eb28a7349c7",
+    "identical": true
+  }
+]

@@ -1,0 +1,87 @@
+.page-intro {
+  padding-top: 185px;
+  padding-bottom: 55px;
+  border-bottom: 1px solid #dbe8f2;
+  position: relative;
+}
+.page-intro h1 {
+  max-width: 950px;
+  font-size: clamp(36px, 4vw, 55px);
+}
+.page-intro p {
+  max-width: 720px;
+  font-size: 18px;
+}
+.breadcrumbs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 35px;
+  font-size: 14px;
+  color: #4a6780;
+}
+.breadcrumbs a {
+  color: #a94704;
+}
+.about-banner,
+.review-banner {
+  width: 100%;
+  padding-inline: max(48px, calc((100% - 1320px) / 2));
+  background:
+    linear-gradient(90deg, #eaf4fcff 10%, #eaf4fcf5 45%, #eaf4fc30),
+    url("/images/planning.jpg") center/cover;
+  min-height: 410px;
+}
+.review-banner {
+  background-image:
+    linear-gradient(90deg, #f7fafdff 15%, #f7fafdde 55%, #f7fafd35),
+    url("/images/laptop.jpg");
+}
+/* These widths retain the original interaction with the .container utility. */
+@media (max-width: 1250px) {
+  .about-banner,
+  .review-banner {
+    width: calc(100% - 64px);
+  }
+}
+@media (max-width: 1180px) {
+  .about-banner,
+  .review-banner {
+    padding-inline: 32px;
+  }
+}
+@media (max-width: 760px) {
+  .page-intro {
+    padding-top: 155px;
+    padding-bottom: 40px;
+  }
+  .page-intro h1 {
+    font-size: 38px;
+    letter-spacing: -1.3px;
+  }
+  .page-intro p {
+    font-size: 17px;
+  }
+  .breadcrumbs {
+    font-size: 13px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+  }
+  .about-banner,
+  .review-banner {
+    width: 100%;
+    padding-inline: 20px;
+    background-position: 65% center;
+  }
+}
+@media (max-width: 430px) {
+  .page-intro h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 430px) {
+  .about-banner,
+  .review-banner {
+    width: calc(100% - 32px);
+  }
+}

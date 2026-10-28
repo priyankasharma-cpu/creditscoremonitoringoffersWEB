@@ -1,0 +1,53 @@
+.education-section {
+  padding-top: 0;
+}
+.education-banner {
+  padding: 60px;
+  border-radius: 18px;
+  background:
+    linear-gradient(90deg, #eaf4fcff 10%, #eaf4fcf5 37%, #eaf4fc15 90%),
+    url("/images/learning.jpg") center 48% / cover;
+  margin-bottom: 65px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.education-banner h2 {
+  max-width: 550px;
+}
+.education-banner p {
+  margin: 0;
+}
+@media (max-width: 1180px) {
+  .education-banner {
+    padding: 45px;
+  }
+}
+@media (max-width: 760px) {
+  .education-section {
+    padding-top: 0;
+  }
+  .education-banner {
+    padding: 32px;
+    margin-bottom: 45px;
+    background:
+      linear-gradient(90deg, #eaf4fcf5, #eaf4fcba),
+      url("/images/learning.jpg") center/cover;
+    min-height: 290px;
+  }
+  .education-banner h2 {
+    font-size: 33px;
+  }
+  .education-banner p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 430px) {
+  .education-banner {
+    padding: 26px;
+  }
+  .education-banner h2 {
+    font-size: 30px;
+  }
+}

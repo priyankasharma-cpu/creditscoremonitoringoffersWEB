@@ -1,0 +1,26 @@
+[
+  {
+    "after": "calc(100%-24px)",
+    "before": "calc(100%-32px)",
+    "class": "container nav-row",
+    "node": "DIV",
+    "property": "width",
+    "width": 320
+  },
+  {
+    "after": "calc(100%-24px)",
+    "before": "calc(100%-32px)",
+    "class": "container nav-row",
+    "node": "DIV",
+    "property": "width",
+    "width": 375
+  },
+  {
+    "after": "calc(100%-24px)",
+    "before": "calc(100%-32px)",
+    "class": "container nav-row",
+    "node": "DIV",
+    "property": "width",
+    "width": 430
+  }
+]

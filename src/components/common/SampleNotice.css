@@ -1,0 +1,27 @@
+.sample-notice {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+  background: #edf5fb;
+  border: 1px solid #d7e7f3;
+  border-radius: 10px;
+  padding: 17px 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #40566b;
+  margin-bottom: 30px;
+}
+.sample-notice svg {
+  margin-top: 4px;
+  width: 20px;
+  height: 20px;
+}
+.sample-notice strong {
+  color: var(--navy);
+}
+@media (max-width: 760px) {
+  .sample-notice {
+    font-size: 13px;
+    padding: 16px;
+  }
+}

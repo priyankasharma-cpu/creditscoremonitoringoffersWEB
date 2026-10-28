@@ -1,0 +1,9 @@
+.empty-page {
+  padding-block: 210px 100px;
+  min-height: 70vh;
+}
+@media (max-width: 760px) {
+  .empty-page {
+    padding-top: 170px;
+  }
+}

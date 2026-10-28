@@ -1,0 +1,102 @@
+[
+  {
+    "route": "/",
+    "same": true
+  },
+  {
+    "route": "/compare",
+    "same": true
+  },
+  {
+    "route": "/best-credit-monitoring",
+    "same": true
+  },
+  {
+    "route": "/reviews",
+    "same": true
+  },
+  {
+    "route": "/education",
+    "same": true
+  },
+  {
+    "route": "/about",
+    "same": true
+  },
+  {
+    "route": "/contact",
+    "same": true
+  },
+  {
+    "route": "/methodology",
+    "same": true
+  },
+  {
+    "route": "/editorial-policy",
+    "same": true
+  },
+  {
+    "route": "/advertiser-disclosure",
+    "same": true
+  },
+  {
+    "route": "/privacy",
+    "same": true
+  },
+  {
+    "route": "/terms",
+    "same": true
+  },
+  {
+    "route": "/missing-page",
+    "same": true
+  },
+  {
+    "route": "/reviews/invalid",
+    "same": true
+  },
+  {
+    "route": "/education/invalid",
+    "same": true
+  },
+  {
+    "route": "/reviews/northstar",
+    "same": true
+  },
+  {
+    "route": "/reviews/clearpath",
+    "same": true
+  },
+  {
+    "route": "/reviews/sentry",
+    "same": true
+  },
+  {
+    "route": "/education/what-is-credit-monitoring",
+    "same": true
+  },
+  {
+    "route": "/education/free-vs-paid",
+    "same": true
+  },
+  {
+    "route": "/education/three-bureau-monitoring",
+    "same": true
+  },
+  {
+    "route": "/education/how-monitoring-works",
+    "same": true
+  },
+  {
+    "route": "/education/credit-vs-identity",
+    "same": true
+  },
+  {
+    "route": "/education/read-credit-report",
+    "same": true
+  },
+  {
+    "route": "/education/understanding-alerts",
+    "same": true
+  }
+]

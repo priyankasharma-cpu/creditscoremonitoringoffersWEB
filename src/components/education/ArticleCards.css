@@ -1,0 +1,150 @@
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+.article-card {
+  background: white;
+  border: 1px solid #dee9f1;
+  border-radius: 14px;
+  overflow: hidden;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+.article-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px #07345b12;
+}
+.article-art {
+  aspect-ratio: 16/10;
+  position: relative;
+  overflow: hidden;
+}
+.article-art img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.6s;
+}
+.art-index {
+  position: absolute;
+  left: 18px;
+  bottom: 16px;
+  border: 1px solid #ffffffad;
+  border-radius: 5px;
+  padding: 7px 10px;
+  background: #ffffffe6;
+  backdrop-filter: blur(12px);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.article-body {
+  padding: 27px;
+}
+.overline {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #ad4800;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.overline span {
+  color: #567086;
+  white-space: nowrap;
+  font-size: 10px;
+}
+.article-body h3 {
+  font-size: 23px;
+  line-height: 1.45;
+  margin-top: 17px;
+  min-height: 100px;
+}
+.article-body p {
+  font-size: 16px;
+  min-height: 90px;
+}
+/* Retain the original shared grid spacing override at laptop widths. */
+@media (max-width: 1250px) {
+  .article-grid {
+    gap: 20px;
+  }
+}
+@media (max-width: 1250px) {
+  .article-body h3 {
+    min-height: 130px;
+  }
+  .article-body p {
+    min-height: 120px;
+  }
+}
+@media (max-width: 1180px) {
+  .article-body {
+    padding: 20px;
+  }
+  .article-body h3 {
+    font-size: 21px;
+    min-height: 125px;
+  }
+  .article-body p {
+    min-height: 150px;
+  }
+  .overline {
+    display: block;
+  }
+  .overline span {
+    display: block;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 760px) {
+  .article-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .article-card {
+    max-width: 560px;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .article-body {
+    padding: 27px;
+  }
+  .overline {
+    display: flex;
+    font-size: 11px;
+  }
+  .overline span {
+    font-size: 11px;
+    margin: 0;
+  }
+  .article-body h3 {
+    font-size: 24px;
+    min-height: 0;
+  }
+  .article-body p {
+    min-height: 0;
+    font-size: 16px;
+  }
+}
+@media (max-width: 430px) {
+  .article-body {
+    padding: 23px;
+  }
+  .overline,
+  .overline span {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .overline {
+    display: block;
+  }
+  .overline span {
+    margin-top: 6px;
+  }
+}
